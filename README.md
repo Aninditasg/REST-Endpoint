@@ -26,3 +26,7 @@ total
      test.py
      apps.py
      admin.py
+     
+     If this app needs to run as an https:// end point the following lines nees to be added to the settings.py file
+         SESSION_COOKIE_SECURE = True
+         CSRF_COOKIE_SECURE = True
